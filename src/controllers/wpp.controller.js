@@ -1,4 +1,4 @@
-import { sendTextMessage } from "../services/wpp.service.js";
+import { sendTextMessage } from "../function/sendTextMessage.js";
 
 export const sendMessage = async (req, res) => {
     const { number, text } = req.body;

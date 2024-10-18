@@ -1,8 +1,8 @@
+import { createWPPClient } from './function/createWPPClient.js';
 import app from './config/server.config.js';
-import { createWPPClient } from './services/wpp.service.js';
 import messageRoutes from './routes/wpp.route.js';
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 createWPPClient();
 
